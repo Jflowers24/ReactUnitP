@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+}
+
+.navbar{
+    height: 40px;
+    width: 100%;
+    background-color:black
+
+}
+
+.cart{
+    color:aliceblue;
+    position: fixed;
+    left: 1400px;
+    top:5px;
+    
+}
+
+.shop{
+    color:aliceblue;
+    position: fixed;
+    left: 1350px;
+    top:10px;
+    font-size: larger;
+    
+}
