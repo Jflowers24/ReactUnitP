@@ -1,11 +1,13 @@
 body, html {
     margin: 0;
+    
 }
 
 .navbar{
     height: 40px;
     width: 100%;
-    background-color:black
+    background-color:black;
+    position: fixed;
 
 }
 
