@@ -7,14 +7,14 @@ body, html {
     height: 40px;
     width: 100%;
     background-color:black;
-    position: fixed;
+    /* position: fixed; */
 
 }
 
 .cart{
     color:aliceblue;
-    position: fixed;
-    left: 1400px;
+    position: relative;
+    left: 95%;
     top:5px;
     
 }
@@ -22,7 +22,7 @@ body, html {
 .shop{
     color:aliceblue;
     position: fixed;
-    left: 1350px;
+    left: 89%;
     top:10px;
     font-size: larger;
     

@@ -1,5 +1,22 @@
-   
-  
+   .cart{
+    left:440px
+   }
+
+   .cartitem{
+    position: relative;
+    color:#000000;
+    left: -435px;
+    
+   }
+
+
+  html {
+    height: fit-content;
+    width: auto;
+    min-height: 2000px;
+    overflow-x: hidden;
+  }
+
   .cartItem {
     width: 500px;
     height: 150px;
@@ -10,12 +27,12 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
     margin: 30px;
-    position: relative;
-    left:-970px;
+    /* position: relative;
+    left:-900px; */
   }
   
   .cartItem img {
-    position: relative;
+    /* position: relative; */
     width: 90px;
     left: 50px;
   }
@@ -41,4 +58,46 @@
     border-radius: 8px;
     margin: 10px;
     cursor: pointer;
+  }
+
+  .cshop{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position:relative;
+    left:-180px;
+    
+  }
+
+  .cshop:hover{
+    background-color: rgb(46, 46, 46);
+    color:rgb(255, 255, 255);
+  }
+
+  .checkoutt{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+     position:relative; 
+    left:-695px;
+  }
+
+  .checkoutt:hover{
+    background-color: rgb(46, 46, 46);
+    color:rgb(255, 255, 255);
+  }
+
+  .subt{
+    color:black;
+    position:relative;
+    left: -440px;
+
   }
